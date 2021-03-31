@@ -65,6 +65,19 @@
     <!-- images with Attributes -->
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="100px"
         height="100px" alt="test" align="right" />
+    <!-- images map -->
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" usemap="#myMap" />
+    <map name="myMap">
+        <area shape="circle" coords="35,35,35" href="goanyware" /> <!-- cercle shape  x,y,redus -->
+        <area shape="rect" coords="72,24,162,72" href="goanyware" /> <!-- rectangle x0,y0,x1,y1 -->
+        <area shape="poly" coords="70,50,10,20,10,20" href="goanyware" /> <!-- polygones x0,y0,x1,y1,x.... -->
+    </map>
+    <!-- internet frame -->
+    <iframe width="400" height="400" scrolling="no" src="www.google.com" /> <!-- frame with web site -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6M5VXKLf4D4?controls=0"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe> <!-- frame with embedding videos & maps -->
 </body>
 
 </html>
