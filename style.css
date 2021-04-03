@@ -7,7 +7,7 @@ selector {element , id , class}
 
 /* 1- element */
 body{background-color: #0d1117;}
-*{color: #fff}
+
 
 /* 2- ID */
 #select{
@@ -18,3 +18,79 @@ body{background-color: #0d1117;}
 .select{
     color: #fff;
 }
+
+/* other selector */
+/* 1- universal selector */
+*{color: #fff}
+
+/* 2- combinators & Multiple Selector */
+h2, .h2 , #h2{
+    /* multi selector */
+    color: aqua;
+}
+
+div p {
+    /* p inside div */
+    color: #fff;
+}
+
+div > p {
+    /* p direct chiled of div */
+    color: #fff;
+}
+
+div + p{
+    /* p direct after div */
+    color: #fff;
+}
+
+div ~ p{
+   /* all p after div */
+   color: #fff;
+}
+
+/* attribute selectors */
+
+
+[width = "105px"] /* all elements has attribute width = 105px */{
+    color: antiquewhite;
+}
+
+[width ^= "1"] /* all elements has attribute width start from 1 */{
+    color: antiquewhite;
+}
+
+[width $= "1px"] /* all elements has attribute width end to 1 */{
+    color: antiquewhite;
+}
+
+[width *= "1"] /* all elements has attribute width Containing 1 */{
+    color: antiquewhite;
+}
+
+/* pseudo elements */
+/* 1- ::after */
+div::after {
+content:"hi";
+}
+
+/* 2- ::before */
+div::before {
+content:"by";
+}
+
+/* 3- ::first-letter */
+div::first-letter {
+   color: beige;
+}
+
+/* 4- ::first-line */
+div::first-line {
+    color: beige;
+}
+
+/* 5- ::selection */
+div::selection {
+    color: coral;
+ }
+
