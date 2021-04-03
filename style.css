@@ -7,4 +7,14 @@ selector {element , id , class}
 
 /* 1- element */
 body{background-color: #0d1117;}
-*{color: var(--color-text-primary);}
+*{color: #fff}
+
+/* 2- ID */
+#select{
+    color: #fff;
+}
+
+/* 3- CLASS */
+.select{
+    color: #fff;
+}
