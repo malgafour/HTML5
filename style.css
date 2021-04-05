@@ -94,3 +94,95 @@ div::selection {
     color: coral;
  }
 
+ /* pseudo class */
+ /* 1- :hover */
+div:hover{
+    color: aqua;
+}
+
+/* 2- : */
+
+
+
+/* display list item */
+.contianir{
+    display: list-item;
+    background: #82858b;
+    height: 250px;
+}
+.a{
+    display: list-item;
+    background: #38b412;
+    height: 250px;
+    list-style-position: inside;
+}
+.b{
+    display: list-item;
+    background: #268032;
+    height: 250px;
+}
+.c{
+    display: list-item;
+    background: #014add;
+    height: 250px;
+}
+.d{
+    display: list-item;
+    background: rgb(161, 34, 34);
+    height: 250px;
+}
+
+/* display table */
+.contianir21{
+    display: table;
+    background: #82858b;
+    height: 250px;
+}
+.a2{
+    display: table-caption;
+    background: #38b412;
+    height: 250px; 
+}
+.b2{ 
+    display: table-header-group;
+    background: #268032;
+    height: 250px;
+}
+.c2{ 
+    display: table-row-group;
+    background: #014add;
+    height: 250px;
+}
+.d2{ 
+    background: rgb(161, 34, 34);
+    height: 250px;
+    display: table-cell;
+}
+/* display flex */
+
+.contianir2{
+    display: flex;
+    background: #82858b;
+    height: 250px;
+    width: auto;
+}
+.red{
+    background: red;
+    height: 250px;
+    width: 100%;
+}
+.green{
+    background: green;
+    height: 250px;
+    width: 100%;
+}
+.blue{
+    background: blue;
+    height: 250px;
+    width: 100%;
+}
+.orange{
+    background: orange;
+    height: 250px;
+    width: 100%;
+}
